@@ -1,0 +1,26 @@
+{
+	"name": "image_reader",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"@types/react": "^17.0.0",
+		"axios": "^0.21.1",
+		"create-react-app": "^4.0.1",
+		"express": "^4.17.1",
+		"node": "^15.4.0",
+		"npm": "^7.3.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.2.0-dev.20210103"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"server": "nodemon index.js",
+		"frontend": "npm start --prefix frontend",
+		"dev": "concurrently \"npm run sever\" \"npm run frontend\""
+	},
+	"author": "",
+	"license": "ISC"
+}

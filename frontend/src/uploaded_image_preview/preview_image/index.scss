@@ -1,0 +1,9 @@
+.image-preview {
+  width: 27rem;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    width: 25rem;
+  }
+}
